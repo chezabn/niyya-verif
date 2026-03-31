@@ -83,7 +83,7 @@ class ExifParser:
             self.image = Image.open(self.image_data).convert("RGB")
 
             # Extraire les données EXIF
-            exif_data = self.image._getexif()
+            exif_data = self.image.getexif()
 
             if exif_data:
                 for tag_id, value in exif_data.items():
