@@ -1,0 +1,1 @@
+"""Assure la vérification manuelle de l'utilisatrice. L'objectif est d'envoyer des données via une API"""
